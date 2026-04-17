@@ -22,7 +22,18 @@
             </div>
             <div class="form-group">
                 <label for="type">Type</label>
-                <!-- hier komt een dropdown -->
+
+                <select name ="type"
+                    <option value="">--kies een type--</option>
+                    
+                    
+                </select>
+
+                <select name="type" id="type" class="form-input">
+                    <option value="mechanisch">Mechanisch</option>
+                    <option value="elektrisch">Elektrisch</option>
+                    <option value="overig">Overig</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
